@@ -1,9 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Hometown Plants`,
+    description: `Plant nursery featuring tropicals, succulents, shrubs, perennials, pottery, and gifts.`,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://hometownplantsnursery.com`,
+    menuLinks: [
+      {
+        name: "home",
+        link: "/",
+      },
+      {
+        name: "contact",
+        link: "/contact",
+      },
+      {
+        name: "gallery",
+        link: "/gallery",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
