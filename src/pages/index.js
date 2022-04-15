@@ -276,8 +276,8 @@ const IndexPage = () => (
           <Card>
             <Card.Header as={"h4"}>Hours of Operation</Card.Header>
             <ListGroup variant="flush">
-              <ListGroup.Item>Monday - Friday: 8am - 5pm</ListGroup.Item>
-              <ListGroup.Item>Saturday - Sunday: 9am - 4pm</ListGroup.Item>
+              <ListGroup.Item>Monday: Closed</ListGroup.Item>
+              <ListGroup.Item>Tuesday - Sunday: 8:00am - 6:30pm</ListGroup.Item>
             </ListGroup>
           </Card>
         </Col>
