@@ -9,14 +9,14 @@ module.exports = {
         name: "home",
         link: "/",
       },
-      {
-        name: "contact",
-        link: "/contact",
-      },
-      {
-        name: "gallery",
-        link: "/gallery",
-      },
+      // {
+      //   name: "contact",
+      //   link: "/contact",
+      // },
+      // {
+      //   name: "gallery",
+      //   link: "/gallery",
+      // },
     ],
   },
   plugins: [

@@ -262,14 +262,14 @@ const IndexPage = () => (
               </ListGroup.Item>
               <ListGroup.Item>
                 <FontAwesomeIcon icon={faPhone} />{" "}
-                <Link to="tel:2054468889">(205) 446-8889</Link>
+                <Link to="tel:20545328884">(205) 532-8884</Link>
               </ListGroup.Item>
-              <ListGroup.Item>
+              {/* <ListGroup.Item>
                 <FontAwesomeIcon icon={faEnvelope} />{" "}
                 <Link to="mailto:hometownplantsnursery@gmail.com">
                   hometownplantsnursery@gmail.com
                 </Link>
-              </ListGroup.Item>
+              </ListGroup.Item> */}
             </ListGroup>
           </Card>
           <br />
@@ -277,17 +277,17 @@ const IndexPage = () => (
             <Card.Header as={"h4"}>Hours of Operation</Card.Header>
             <ListGroup variant="flush">
               <ListGroup.Item>Monday: Closed</ListGroup.Item>
-              <ListGroup.Item>Tuesday - Sunday: 8:00am - 6:30pm</ListGroup.Item>
+              <ListGroup.Item>Tuesday - Sunday: 8:30am - 6:00pm</ListGroup.Item>
             </ListGroup>
           </Card>
         </Col>
       </Row>
     </Container>
 
-    <Container>
+    {/* <Container>
       <h2>Contact Form</h2>
       <ContactForm />
-    </Container>
+    </Container> */}
     <br />
   </Layout>
 )

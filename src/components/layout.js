@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()} built by
           {` `}
-          <a href="https://seanli.space">seanli.space</a>
+          <a href="https://seanli.io">seanli.io</a>
         </footer>
       </Container>
     </>
